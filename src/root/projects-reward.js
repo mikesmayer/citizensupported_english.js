@@ -20,7 +20,7 @@ const projectsReward = {
             const valueFloat = h.monetaryToFloat(vm.contributionValue);
 
             if (valueFloat < vm.selectedReward().minimum_value) {
-                vm.error(`The support amount for this reward must be at least Rs${vm.selectedReward().minimum_value}`);
+                vm.error(`The support amount for this reward must be at least $${vm.selectedReward().minimum_value}`);
             } else {
                 if (!h.getUser()) {
                     h.storeObject(storeKey, {value: valueFloat, reward: vm.selectedReward()});
@@ -99,7 +99,7 @@ const projectsReward = {
                                                                     checked: isSelected ? true : false,
                                                                 }),
                                                                 m(`label.w-form-label.fontsize-base.fontweight-semibold.u-marginbottom-10[for='contribution_reward_${reward.id}']`,
-                                                                    reward.id === -1 ? 'I do not want any reward' : `Rs ${reward.minimum_value} or more`
+                                                                    reward.id === -1 ? 'I do not want any reward' : `$ ${reward.minimum_value} or more`
                                                                 ),
                                                                 isSelected ? m('.w-row.back-reward-money',
                                                                     [
@@ -109,7 +109,7 @@ const projectsReward = {
                                                                                     [
                                                                                         m('.w-col.w-col-3.w-col-small-3.w-col-tiny-3',
                                                                                             m('.back-reward-input-reward.placeholder',
-                                                                                                'Rs'
+                                                                                                '$'
                                                                                             )
                                                                                         ),
                                                                                         m('.w-col.w-col-9.w-col-small-9.w-col-tiny-9',

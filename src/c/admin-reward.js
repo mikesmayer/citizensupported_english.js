@@ -11,7 +11,7 @@ const adminReward = {
             m('.fontsize-smallest.lineheight-looser', reward.id ? [
                 'ID: ' + reward.id,
                 m('br'),
-                'Minimum value: Rs' + h.formatNumber(reward.minimum_value, 2, 3),
+                'Minimum value: $' + h.formatNumber(reward.minimum_value, 2, 3),
                 m('br'),
                 m.trust('Available: ' + available + ' / ' + (reward.maximum_contributions || '&infin;')),
                 m('br'),

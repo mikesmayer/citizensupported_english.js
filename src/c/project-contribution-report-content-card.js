@@ -70,11 +70,11 @@ const projectContributionReportContentCard = {
                             m('.lineheight-tighter', [
                                 m(`span.fa.fontsize-smallest.${ctrl.stateClass(contribution.state)}`),
                                 '   ',
-                                m('span.fontsize-large', `R$ ${h.formatNumber(contribution.value, 2, 3)}`)
+                                m('span.fontsize-large', `$ ${h.formatNumber(contribution.value, 2, 3)}`)
                             ])
                         ]),
                          m('.w-col.w-col-3.w-hidden-small.w-hidden-tiny', [
-                             m('.fontsize-smallest.fontweight-semibold', `Reward: Rs ${h.formatNumber(reward.minimum_value, 2, 3)}`),
+                             m('.fontsize-smallest.fontweight-semibold', `Reward: $ ${h.formatNumber(reward.minimum_value, 2, 3)}`),
                              m('.fontsize-smallest', reward.description.substring(0, 80) + '...')
                          ])/*,
                         m(".w-col.w-col-2.w-hidden-small.w-hidden-tiny.u-text-center", [

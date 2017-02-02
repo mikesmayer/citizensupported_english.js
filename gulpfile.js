@@ -106,10 +106,10 @@ gulp.task('dist', function(done){
     .pipe(buffer())
     .pipe(sourcemaps.init({loadMaps: true}))
     .pipe(sourcemaps.write())
-    .pipe(rename('catarse.js'))
+    .pipe(rename('citizensupported.js'))
     .pipe(gulp.dest('dist'))
     .pipe(uglify())
-    .pipe(rename('catarse.min.js'))
+    .pipe(rename('citizensupported.min.js'))
     .pipe(gulp.dest('dist'))
     .on('end', done);
 });

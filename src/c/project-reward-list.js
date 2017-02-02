@@ -15,7 +15,7 @@ const projectRewardList = {
             const valueFloat = h.monetaryToFloat(vm.contributionValue);
 
             if (valueFloat < vm.selectedReward().minimum_value) {
-                vm.error(`The support amount for this reward must be at least Rs${vm.selectedReward().minimum_value}`);
+                vm.error(`The support amount for this reward must be at least $${vm.selectedReward().minimum_value}`);
             } else {
                 vm.error('');
 
@@ -84,16 +84,16 @@ const projectRewardList = {
                     m('.fontsize-mini.lineheight-tightest', 's/ interest')
                 ]) : '',
                 m('.u-marginbottom-20', [
-                    m('.fontsize-base.fontweight-semibold', 'For Rs ' + h.formatNumber(reward.minimum_value) + ' or more'),
-                    m('.fontsize-smaller.fontweight-semibold', h.pluralize(reward.paid_count, ' apoio', ' apoios')), (reward.maximum_contributions > 0 ? [
+                    m('.fontsize-base.fontweight-semibold', 'For $ ' + h.formatNumber(reward.minimum_value) + ' or more'),
+                    m('.fontsize-smaller.fontweight-semibold', h.pluralize(reward.paid_count, ' contribution', ' contributions')), (reward.maximum_contributions > 0 ? [
                         (reward.waiting_payment_count > 0 ? m('.maximum_contributions.in_time_to_confirm.clearfix', [
-                            m('.pending.fontsize-smallest.fontcolor-secondary', h.pluralize(reward.waiting_payment_count, ' Support in confirmation period', ' Support in confirmation period....'))
+                            m('.pending.fontsize-smallest.fontcolor-secondary', h.pluralize(reward.waiting_payment_count, ' contribution in confirmation period', ' contributions in confirmation period....'))
                         ]) : ''), (h.rewardSouldOut(reward) ? m('.u-margintop-10', [
                             m('span.badge.badge-gone.fontsize-smaller', 'Out of stock')
                         ]) : m('.u-margintop-10', [
                             m('span.badge.badge-attention.fontsize-smaller', [
-                                m('span.fontweight-bold', 'Limitada'),
-                                project.open_for_contributions ? ' (' + h.rewardRemaning(reward) + ' in ' + reward.maximum_contributions + ' Available)' : ''
+                                m('span.fontweight-bold', 'Limited'),
+                                project.open_for_contributions ? ' (' + h.rewardRemaning(reward) + ' out of ' + reward.maximum_contributions + ' available)' : ''
                             ])
                         ]))
                     ] : ''),
@@ -113,12 +113,12 @@ const projectRewardList = {
                         }, [
                             m('.divider.u-marginbottom-20'),
                             m('.fontcolor-secondary.u-marginbottom-10',
-                                'Value of support'
+                                'Value of contribution'
                             ),
                             m('.w-row.u-marginbottom-20', [
                                 m('.w-col.w-col-3.w-col-small-3.w-col-tiny-3',
                                     m('.back-reward-input-reward.placeholder',
-                                        'Rs'
+                                        '$'
                                     )
                                 ),
                                 m('.w-col.w-col-9.w-col-small-9.w-col-tiny-9',

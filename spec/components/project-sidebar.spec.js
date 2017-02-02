@@ -71,11 +71,11 @@ describe('ProjectSidebar', () => {
                     in_reminder: true
                 });
 
-                expect(output.contains('Lembrete ativo')).toEqual(true);
+                expect(output.contains('Active Reminder')).toEqual(true);
                 expect(output.find('#project-reminder').length).toEqual(1);
             });
 
-            it('should render reminder when project is open_for_contributions and user signed in ant not in_reminder', () => {
+            it('should render reminder when project is open_for_contributions and user signed in and not in_reminder', () => {
                 let {
                     output, projectDetail
                 } = generateContextByNewState({
@@ -84,7 +84,7 @@ describe('ProjectSidebar', () => {
                     in_reminder: false
                 });
 
-                expect(output.contains('Lembrar-me')).toEqual(true);
+                expect(output.contains('Remember Me Forgot your password?')).toEqual(true);
                 expect(output.find('#project-reminder').length).toEqual(1);
             });
 

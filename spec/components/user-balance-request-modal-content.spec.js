@@ -15,7 +15,7 @@ describe('UserBalanceRequestModalContent', () => {
                     amount: 205,
                     user_id: 1
                 }
-            }));
+            })).
         $output = mq(component);
     });
 
@@ -26,8 +26,8 @@ describe('UserBalanceRequestModalContent', () => {
     });
 
     it('should render user bank account / amount data', () => {
-        expect($output.contains('R$ 205,00')).toEqual(true);
-        expect($output.contains('Banco XX')).toEqual(true);
+        expect($output.contains('$ 205')).toEqual(true);
+        expect($output.contains('Bank XX')).toEqual(true);
         $output.should.have('.btn-request-fund');
     });
 

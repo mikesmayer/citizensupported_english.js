@@ -242,7 +242,7 @@ const paymentCreditCard = {
                                                     value: ctrl.selectedInstallment()
                                                 } ,_.map(ctrl.installments(), (installment) => {
                                                     return m(`option[value="${installment.number}"]`,
-                                                        `${installment.number} X Rs ${installment.amount}`
+                                                        `${installment.number} X $ ${installment.amount}`
                                                     );
                                                 })
                                             )
@@ -368,7 +368,7 @@ const paymentCreditCard = {
                                 value: ctrl.selectedInstallment()
                             }, _.map(ctrl.installments(), (installment) => {
                                  return m(`option[value="${installment.number}"]`,
-                                     `${installment.number} X Rs ${installment.amount}`
+                                     `${installment.number} X $ ${installment.amount}`
                                  );
                              }))
                          ]),

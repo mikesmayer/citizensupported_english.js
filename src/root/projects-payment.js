@@ -144,7 +144,7 @@ const projectsPayment = {
                     m('a.w-inline-block.arrow-admin.fa.fa-chevron-down.fontcolor-secondary[href=\'#\']'),
                     m('.w-clearfix.u-marginbottom-20',
                         m('.fontsize-larger.text-success.u-left',
-                            `Rs ${Number(ctrl.value).toFixed()}`
+                            `$ ${Number(ctrl.value).toFixed()}`
                         )
                     ),
                     m('.w-clearfix.back-payment-info-reward', {
@@ -424,7 +424,7 @@ const projectsPayment = {
                             ),
                             m('.w-clearfix.u-marginbottom-20', [
                                 m('.fontsize-larger.text-success.u-left',
-                                    `Rs ${Number(ctrl.value).toFixed()}`
+                                    `$ ${Number(ctrl.value).toFixed()}`
                                 ),
                                 m(`a.fontsize-small.link-hidden.u-right.fontweight-semibold[href="/projects/${projectVM.currentProject().project_id}/contributions/new${ctrl.reward().id ? '?reward_id=' + ctrl.reward().id : '' }"]`,
                                     I18n.t(`selected_reward.edit`, ctrl.scope()))

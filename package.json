@@ -10,6 +10,10 @@
     {
       "name": "Sushant Bajracharya",
       "email": "sussyoung9@gmail.com"
+    },
+    {
+      "name": "Mike Mayer",
+      "email": "mayer@citizensupported.org"
     }
   ],
   "description": "Citizen Supported JS components",

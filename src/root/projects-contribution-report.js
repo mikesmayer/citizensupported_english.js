@@ -108,7 +108,7 @@ const projectContributionReport = {
                 options = _.map(rewards(), (r) => {
                     return {
                         value: r.id,
-                        option: `Rs ${h.formatNumber(r.minimum_value, 2, 3)} - ${r.description.substring(0, 20)}`
+                        option: `$ ${h.formatNumber(r.minimum_value, 2, 3)} - ${r.description.substring(0, 20)}`
                     };
                 });
             }

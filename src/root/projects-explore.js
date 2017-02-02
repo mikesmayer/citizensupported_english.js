@@ -61,7 +61,7 @@ const projectsExplore = {
                       tooltipText = 'Our popularity factor is a mix of JVN team`s selection with a value that is calculated by the speed of collection of the project';
                   }else if (currentFilter().keyName === 'finished') {
                       hasHint = true;
-                      hintText = 'Sorted by Rs achieved ';
+                      hintText = 'Sorted by $ achieved ';
                       tooltipText = 'The projects with the highest collection goal achieved are at the top';
                   }else if (currentFilter().keyName === 'contributed_by_friends') {
                       hasHint = true;

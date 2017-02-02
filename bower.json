@@ -5,13 +5,14 @@
   "authors": [
     "Diogo Biazus <diogo@biazus.me>",
     "Vinícius Andrade <vchavesster@gmail.com>",
-    "Sushant Bajracharya <sussyoung9@gmail.com>"
+    "Sushant Bajracharya <sussyoung9@gmail.com>",
+    "Mike Mayer <mayer@citizensupported.org>"
   ],
-  "description": "A set of components to use in Catarse interface",
-  "main": "dist/catarse.js",
+  "description": "A set of components to use in Citizen Supported interface",
+  "main": "dist/citizensupported.js",
   "keywords": [
     "mithril",
-    "catarse"
+    "citizen supported"
   ],
   "license": "MIT",
   "ignore": [

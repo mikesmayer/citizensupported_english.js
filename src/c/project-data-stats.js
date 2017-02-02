@@ -32,7 +32,7 @@ const projectDataStats = {
                         m('.fontcolor-secondary.lineheight-tighter.fontsize-small.u-marginbottom-10', 'Financed')
                     ]),
                     m('.w-col.w-col-3.w-col-small-6.w-col-tiny-6', [
-                        m('.fontweight-semibold.fontsize-large.lineheight-tight', `Rs ${h.formatNumber(project.pledged, 2)}`),
+                        m('.fontweight-semibold.fontsize-large.lineheight-tight', `$ ${h.formatNumber(project.pledged, 2)}`),
                         m('.fontcolor-secondary.lineheight-tighter.fontsize-small.u-marginbottom-10', 'Raised')
                     ]),
                     m('.w-col.w-col-3.w-col-small-6.w-col-tiny-6', [

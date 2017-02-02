@@ -14,7 +14,7 @@ const projectContributionReportContent = {
                             m('span.fontweight-semibold', (list.isLoading() ? '' : list.total())),
                             ' Supports'
                         ]),
-                        //m(".fontsize-large.fontweight-semibold", "R$ 12.000,00")
+                        //m(".fontsize-large.fontweight-semibold", "$ 12.000,00")
                     ]),
                     /*
                      TODO: ordering filter template

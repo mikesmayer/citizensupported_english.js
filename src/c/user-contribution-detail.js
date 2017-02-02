@@ -24,7 +24,7 @@ const userContributionDetail = {
                     'Value of support:'
                    ),
                   m('.fontsize-large',
-                    `Rs${contribution.value}`
+                    `$${contribution.value}`
                    )
               ]
              ),

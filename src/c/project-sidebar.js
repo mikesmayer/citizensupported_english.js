@@ -32,7 +32,7 @@ const projectSidebar = {
                         incrementProgress = () => {
                             if (progress <= parseInt(project().progress)) {
                                 progressBar.style.width = `${progress}%`;
-                                pledgedEl.innerText = `Rs ${h.formatNumber(pledged)}`;
+                                pledgedEl.innerText = `$ ${h.formatNumber(pledged)}`;
                                 contributorsEl.innerText = `${parseInt(contributors)} people`;
                                 el.innerText = `${progress}%`;
                                 pledged = pledged + pledgedIncrement;
@@ -90,7 +90,7 @@ const projectSidebar = {
                 m('.project-stats-inner', [
                     m('.project-stats-info', [
                         m('.u-marginbottom-20', [
-                            m('#pledged.fontsize-largest.fontweight-semibold.u-text-center-small-only', `Rs ${project().pledged ? h.formatNumber(project().pledged) : '0'}`),
+                            m('#pledged.fontsize-largest.fontweight-semibold.u-text-center-small-only', `$ ${project().pledged ? h.formatNumber(project().pledged) : '0'}`),
                             m('.fontsize-small.u-text-center-small-only', [
                                 I18n.t('contributors_call', I18nScope()),
                                 m('span#contributors.fontweight-semibold', I18n.t('contributors_count', I18nScope({count: project().total_contributors}))),

@@ -27,7 +27,7 @@ const teamTotal = {
                                 'Today we are' + teamTotal.member_count + ' People scattered over ' + teamTotal.total_cities + ' Cities in ' + teamTotal.countries.length +
                                 ' Countries (' + teamTotal.countries.toString() + ')! JVN is independent, open-source, and built with love. Our passion is to build an environment where more and more projects can come to life.'),
                             m('.fontsize-larger.lineheight-tight.text-success',
-                                'Our team, together, has already Rs' + h.formatNumber(teamTotal.total_amount) + ' for ' + teamTotal.total_contributed_projects + ' Business!')
+                                'Our team, together, has already $' + h.formatNumber(teamTotal.total_amount) + ' for ' + teamTotal.total_contributed_projects + ' Business!')
                         ]),
                         m('.w-col.w-col-2')
                     ])

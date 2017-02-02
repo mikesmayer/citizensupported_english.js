@@ -25,7 +25,7 @@ describe('AdminProjectDetailsCard', () => {
                     }
                 });
                 expect(ctrl.remainingTextObj.total).toEqual(10);
-                expect(ctrl.remainingTextObj.unit).toEqual('dias');
+                expect(ctrl.remainingTextObj.unit).toEqual('days');
             });
 
             it('when remaining time is in seconds', () => {
@@ -36,7 +36,7 @@ describe('AdminProjectDetailsCard', () => {
                     }
                 });
                 expect(ctrl.remainingTextObj.total).toEqual(12);
-                expect(ctrl.remainingTextObj.unit).toEqual('segundos');
+                expect(ctrl.remainingTextObj.unit).toEqual('seconds');
             });
 
             it('when remaining time is in hours', () => {
@@ -47,7 +47,7 @@ describe('AdminProjectDetailsCard', () => {
                     }
                 });
                 expect(ctrl.remainingTextObj.total).toEqual(2);
-                expect(ctrl.remainingTextObj.unit).toEqual('horas');
+                expect(ctrl.remainingTextObj.unit).toEqual('hours');
             });
         });
     });
@@ -70,7 +70,7 @@ describe('AdminProjectDetailsCard', () => {
 
             expect($output.find('.project-details-card').length).toEqual(1);
             expect($output.contains(projectDetail.total_contributions)).toEqual(true);
-            expect($output.contains('R$ ' + h.formatNumber(projectDetail.pledged, 2))).toEqual(true);
+            expect($output.contains('$ ' + h.formatNumber(projectDetail.pledged, 2))).toEqual(true);
         });
     });
 });
