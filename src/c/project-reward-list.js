@@ -131,7 +131,7 @@ const projectRewardList = {
                             ]),
                             m('input.w-button.btn.btn-medium[type="submit"][value="Continue >"]'),
                             ctrl.error().length > 0 ? m('.text-error', [
-                                m('br'),
+                                m('en'),
                                 m('span.fa.fa-exclamation-triangle'),
                                 ` ${ctrl.error()}`
                             ]) : ''

@@ -112,7 +112,7 @@ const publish = {
                       m('span.fontweight-semibold', 'What can and can not change on the project page from publication?')
                     ]),
                   [m('div', [m('span.fontweight-semibold', 'You may not:'),' Change the type of funding, project name, project URL, category chosen, collection goal, deadline (if you have already defined it), rewards where existing support is available, and registered bank account.\
-                    '                          ,m('br'),m('br'),m('span.fontweight-semibold', 'You will be able to: '),'Edit the content of the project description, change the main campaign video, project image, effect phrase, rewards where there are no supports made, and add new rewards during fundraising.'])]
+                    '                          ,m('en'),m('en'),m('span.fontweight-semibold', 'You will be able to: '),'Edit the content of the project description, change the main campaign video, project image, effect phrase, rewards where there are no supports made, and add new rewards during fundraising.'])]
                   ]),
                   m('.w-col.w-col-11', [
                     m('div', [
@@ -120,7 +120,7 @@ const publish = {
                         ' ',
                       m('span.fontweight-semibold', 'Responsibility of Citizen Supported')
                     ]),
-                  [m('div', [m('span.fontweight-semibold'),m('span.fontweight-semibold', 'Catarse is responsible for:'),' By the technological development of the platform, attendance of doubts and problems (both of supporters and directors), by hosting the project in the platform and by guaranteeing the security of the financial transactions.\ ',m('br'),m('br'),m('span.fontweight-semibold', 'Catarse is not responsible for:'),' Financing, dissemination and execution, nor for the delivery of rewards of the projects registered.'])]
+                  [m('div', [m('span.fontweight-semibold'),m('span.fontweight-semibold', 'Catarse is responsible for:'),' By the technological development of the platform, attendance of doubts and problems (both of supporters and directors), by hosting the project in the platform and by guaranteeing the security of the financial transactions.\ ',m('en'),m('en'),m('span.fontweight-semibold', 'Catarse is not responsible for:'),' Financing, dissemination and execution, nor for the delivery of rewards of the projects registered.'])]
                   ]),
                   m('.w-col.w-col-11', [
                     m('div', [
@@ -200,7 +200,7 @@ const publish = {
                         ' ',
                         m('span', {style: {'font-weight': ' 600'}}, 'What can and can not change on the project page from publication?')
                       ]),
-                    [m('div', [m('span.fontweight-semibold', 'You can not:'),' Change the name of the project, the URL (link) of the project, the category chosen, the type of financing, the bank account, the collection goal, the term chosen and the rewards where existing support already exists.\ ',m('br'),m('br'),m('span.fontweight-semibold', 'You will be able to: '),'Edit the content of the project description, change the main campaign video, project image, effect phrase, rewards where there are no supports made, and add new rewards during fundraising.'])]]),
+                    [m('div', [m('span.fontweight-semibold', 'You can not:'),' Change the name of the project, the URL (link) of the project, the category chosen, the type of financing, the bank account, the collection goal, the term chosen and the rewards where existing support already exists.\ ',m('en'),m('en'),m('span.fontweight-semibold', 'You will be able to: '),'Edit the content of the project description, change the main campaign video, project image, effect phrase, rewards where there are no supports made, and add new rewards during fundraising.'])]]),
 
                     m('.w-col.w-col-11', [
                       m('div', [
@@ -208,7 +208,7 @@ const publish = {
                         ' ',
                         m('span', {style: {'font-weight': ' 600'}}, 'Responsibility of Citizen Supported')
                       ]),
-                    [m('div', [m('span.fontweight-semibold'),m('span.fontweight-semibold', 'Citizen Supported is responsible:'),' By the technological development of the platform, attendance of doubts and problems (both of supporters and directors), by hosting the project in the platform and by guaranteeing the security of the financial transactions.\ ',m('br'),m('br'),m('span.fontweight-semibold', 'Citizen Supported is not responsible for:'),' Financing, dissemination and execution, nor for the delivery of rewards of the projects registered.'])]]),
+                    [m('div', [m('span.fontweight-semibold'),m('span.fontweight-semibold', 'Citizen Supported is responsible:'),' By the technological development of the platform, attendance of doubts and problems (both of supporters and directors), by hosting the project in the platform and by guaranteeing the security of the financial transactions.\ ',m('en'),m('en'),m('span.fontweight-semibold', 'Citizen Supported is not responsible for:'),' Financing, dissemination and execution, nor for the delivery of rewards of the projects registered.'])]]),
 
                     m('.w-col.w-col-11', [
                       m('div', [

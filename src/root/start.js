@@ -321,7 +321,7 @@ const start = {
                 m('.w-container.u-text-center', [
                     m('.fontsize-larger.lineheight-tight.fontcolor-negative.u-marginbottom-20', [
                         I18n.t('video.title', I18nScope()),
-                        m('br'),
+                        m('en'),
                         I18n.t('video.subtitle', I18nScope())
                     ]),
                     m.component(youtubeLightbox, {

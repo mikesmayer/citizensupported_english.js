@@ -39,7 +39,7 @@ const cancelProjectModalContent = {
                             m('span.fontweight-semibold',
                                 'Essa ação não poderá ser desfeita!'
                             ),
-                            m('br'),
+                            m('en'),
                             m('span.fontweight-semibold')
                         ]
                     ),

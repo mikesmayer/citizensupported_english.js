@@ -104,7 +104,7 @@ const ownerMessageContent = {
                             m('.w-row', h.validationErrors().length ? _.map(h.validationErrors(), errors => m('span.fontsize-smallest.text-error', [
                                 m('span.fa.fa-exclamation-triangle'),
                                 ` ${errors.message}`,
-                                m('br')
+                                m('en')
                             ])) : ''),
                             m('.modal-dialog-nav-bottom',
                                 m('.w-row',

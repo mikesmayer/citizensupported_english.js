@@ -10,13 +10,13 @@ const adminReward = {
             m('.fontweight-semibold.fontsize-smaller.lineheight-tighter.u-marginbottom-20', 'Reward'),
             m('.fontsize-smallest.lineheight-looser', reward.id ? [
                 'ID: ' + reward.id,
-                m('br'),
+                m('en'),
                 'Minimum value: $' + h.formatNumber(reward.minimum_value, 2, 3),
-                m('br'),
+                m('en'),
                 m.trust('Available: ' + available + ' / ' + (reward.maximum_contributions || '&infin;')),
-                m('br'),
+                m('en'),
                 'Waiting confirmation: ' + reward.waiting_payment_count,
-                m('br'),
+                m('en'),
                 'Description: ' + reward.description
             ] : 'Support without reward')
         ]);

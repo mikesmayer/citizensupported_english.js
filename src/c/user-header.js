@@ -28,7 +28,7 @@ const userHeader = {
                           m('.w-hidden-small.w-hidden-tiny.u-marginbottom-40.fontsize-base',
                               [
                                   `Joined on ${h.momentify(user.created_at, 'MMMM YYYY')}`,
-                                  m('br'),
+                                  m('en'),
                                   (user.total_contributed_projects == 0 ? 'Has not yet backed any campaigns' :
                                   `Backed ${h.pluralize(user.total_contributed_projects, ' campaign', ' campaigns')}`),
                                   (user.total_published_projects > 0 ?

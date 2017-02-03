@@ -125,7 +125,7 @@ const projectsReward = {
                                                                                     ]
                                                                                 ),
                                                                                 ctrl.error().length > 0 ? m('.text-error', [
-                                                                                    m('br'),
+                                                                                    m('en'),
                                                                                     m('span.fa.fa-exclamation-triangle'),
                                                                                     ` ${ctrl.error()}`
                                                                                 ]) : ''

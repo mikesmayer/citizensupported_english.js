@@ -266,9 +266,9 @@ const projectsPayment = {
                                     m('div', [
                                         m('span.fontweight-bold', [
                                             I18n.t('anonymous_confirmation_title', ctrl.scope()),
-                                            m('br')
+                                            m('en')
                                         ]),
-                                        m('br'),
+                                        m('en'),
                                         I18n.t('anonymous_confirmation', ctrl.scope())
                                     ])
                                 ) : ''

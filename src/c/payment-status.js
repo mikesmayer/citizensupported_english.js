@@ -38,7 +38,7 @@ const paymentStatus = {
                     if (cardData) {
                         return m('#creditcard-detail.fontsize-smallest.fontcolor-secondary.lineheight-tight', [
                             cardData.first_digits + '******' + cardData.last_digits,
-                            m('br'),
+                            m('en'),
                             cardData.brand + ' ' + payment.installments + 'x'
                         ]);
                     }
