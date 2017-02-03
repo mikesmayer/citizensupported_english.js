@@ -245,7 +245,7 @@ const publish = {
                 m('.u-text-center', [
                   m('img.u-marginbottom-20[src=\'/assets/catarse_bootstrap/launch-icon.png\'][width=\'94\']'),
                   m('.fontsize-large.fontweight-semibold.u-marginbottom-20', 'Ready to launch your campaign?'),
-                  m('.fontsize-base.u-marginbottom-30', 'We`ve prepared a list with important information for you to check before putting your project on the air!')
+                  m('.fontsize-base.u-marginbottom-30', 'We have prepared a list with important information for you to review before launching your project!')
                 ])
               ]),
               m('.w-col.w-col-3')
@@ -268,7 +268,7 @@ const publish = {
                     m('div', [m('span.fontweight-semibold', 'Goal of collection: '),`$ ${h.formatNumber(project.goal, 2, 3)}`]),
                     (project.online_days !== null) ? m('div', [m('span.fontweight-semibold', `Deadline: ${project.online_days} ${(project.online_days > 1) ? 'days' : 'days' }`)]) : '',
                     m('div', [m('span.fontweight-semibold', 'Responsible: '), account.owner_name]),
-                    m('div', [m('span.fontweight-semibold', 'CPF/CNPJ: '), account.owner_document])
+                    m('div', [m('span.fontweight-semibold', 'SSN/EIN: '), account.owner_document])
                   ])
                 ])
               ]),
@@ -277,7 +277,7 @@ const publish = {
                   m('.w-col.w-col-1'),
                   m('.w-col.w-col-10', [
                     m('.divider.u-marginbottom-10'),
-                    m('.fontsize-small.fontcolor-secondary', 'The above data can not be changed after the project goes live. If you need to make changes, navigate the sidebar and come back here when you`re done!')
+                    m('.fontsize-small.fontcolor-secondary', "The above data can not be changed after the project goes live. If you need to make changes, navigate the sidebar and come back here when you're done!")
                   ]),
                   m('.w-col.w-col-1')
                 ])
@@ -285,7 +285,7 @@ const publish = {
             ]),
             m('.card.medium.u-radius.u-marginbottom-60', [
               m('.u-text-center.u-marginbottom-60', [
-                m('.fontsize-large.fontweight-semibold', 'Relembre nossas regras'),
+                m('.fontsize-large.fontweight-semibold', 'Remember our rules'),
                 m('.w-row', [
                   m('.w-col.w-col-2'),
                   m('.w-col.w-col-8', [

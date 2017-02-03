@@ -29,7 +29,7 @@ const projectRow = {
                                 m((showFriends ? '.w-col.w-col-6' : '.w-col.w-col-12'),
                                     m(`a.btn.btn-small.btn-terciary[href="/explore?ref=${ref}&filter=${collection.hash}"]`,{
                                         config: m.route
-                                    },I18n.t('home.see_all', I18nScope())))
+                                    },I18n.t('index.see_all', I18nScope())))
                             ])
                         ])
                     ]) : '',
