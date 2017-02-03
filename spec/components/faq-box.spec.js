@@ -26,7 +26,7 @@ describe('FaqBox', () => {
     describe('view', () => {
         beforeAll(() => {
             window.I18n.translations = {
-                pt: {
+                en: {
                     projects: {
                         faq: {
                             title: 'faqBox title',

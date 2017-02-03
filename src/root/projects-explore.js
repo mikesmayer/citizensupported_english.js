@@ -58,7 +58,7 @@ const projectsExplore = {
                   if (currentFilter().keyName === 'all') {
                       hasHint = true;
                       hintText = 'Sorted by popularity ';
-                      tooltipText = 'Our popularity factor is a mix of JVN team`s selection with a value that is calculated by the speed of collection of the project';
+                      tooltipText = 'Our popularity factor is a mix of Citizen Supported team`s selection with a value that is calculated by the speed of collection of the project';
                   }else if (currentFilter().keyName === 'finished') {
                       hasHint = true;
                       hintText = 'Sorted by $ achieved ';
@@ -315,7 +315,7 @@ const projectsExplore = {
             m('.w-section.section-large.before-footer.u-margintop-80.bg-gray.divider', [
                 m('.w-container.u-text-center', [
                     m('img.u-marginbottom-20.icon-hero', {src: 'https://daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/56f4414d3a0fcc0124ec9a24_icon-launch-explore.png'}),
-                    m('h2.fontsize-larger.u-marginbottom-60', 'Launch your campaign on JVN!'),
+                    m('h2.fontsize-larger.u-marginbottom-60', 'Launch your campaign on Citizen Supported!'),
                     m('.w-row', [
                         m('.w-col.w-col-4.w-col-push-4', [
                             m('a.w-button.btn.btn-large', {href: '/start?ref=ctrse_explore'}, 'Learn how')

@@ -120,7 +120,7 @@ const Flex = {
                             m('.w-col.w-col-6', [
                                 m.component(landingQA, {
                                     question: 'What are the flexible mode fees? ',
-                                    answer: 'Like in JVN, sending a project costs nothing! The fee charged on the JVN flex service is 13% on the amount collected.'
+                                    answer: 'Like in Citizen Supported, sending a project costs nothing! The fee charged on the Citizen Supported flex service is 13% on the amount collected.'
                                 }),
                                 m.component(landingQA, {
                                     question: 'Where does the money from my project come from?',
@@ -159,16 +159,16 @@ const Flex = {
                     ])
                 ]), m('.w-section.section-one-column.bg-catarse-zelo.section-large[style="min-height: 50vh;"]', [
                     m('.w-container.u-text-center', [
-                        m('.w-editable.u-marginbottom-40.fontsize-larger.lineheight-tight.fontcolor-negative', 'Flex is an experiment and initiative of JVN, Nepal`s largest crowdfunding platform.'),
+                        m('.w-editable.u-marginbottom-40.fontsize-larger.lineheight-tight.fontcolor-negative', 'Flex is an experiment and initiative of Citizen Supported, Nepal`s largest crowdfunding platform.'),
                         m('.w-row.u-text-center', (ctrl.statsLoader()) ? h.loader() : [
                             m('.w-col.w-col-4', [
-                                m('.fontsize-jumbo.text-success.lineheight-loose', h.formatNumber(stats.total_contributors, 0, 3)), m('p.start-stats.fontsize-base.fontcolor-negative', 'People have already supported at least 01 project in JVN')
+                                m('.fontsize-jumbo.text-success.lineheight-loose', h.formatNumber(stats.total_contributors, 0, 3)), m('p.start-stats.fontsize-base.fontcolor-negative', 'People have already supported at least 01 project in Citizen Supported')
                             ]),
                             m('.w-col.w-col-4', [
-                                m('.fontsize-jumbo.text-success.lineheight-loose', h.formatNumber(stats.total_projects_success, 0, 3)), m('p.start-stats.fontsize-base.fontcolor-negative', 'Projects have already been funded in JVN')
+                                m('.fontsize-jumbo.text-success.lineheight-loose', h.formatNumber(stats.total_projects_success, 0, 3)), m('p.start-stats.fontsize-base.fontcolor-negative', 'Projects have already been funded in Citizen Supported')
                             ]),
                             m('.w-col.w-col-4', [
-                                m('.fontsize-jumbo.text-success.lineheight-loose', stats.total_contributed.toString().slice(0, 2) + ' millions'), m('p.start-stats.fontsize-base.fontcolor-negative', 'They were invested in ideas published in JVN')
+                                m('.fontsize-jumbo.text-success.lineheight-loose', stats.total_contributed.toString().slice(0, 2) + ' millions'), m('p.start-stats.fontsize-base.fontcolor-negative', 'They were invested in ideas published in Citizen Supported')
                             ])
                         ])
                     ])
@@ -183,7 +183,7 @@ const Flex = {
                                     m('.w-col.w-col-6.w-col-small-6.w-col-tiny-6.w-sub-col-middle', [
                                         m('div', [
                                             m('img.icon-share-mobile[src=\'https://daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/53a3f66e05eb6144171d8edb_facebook-xxl.png\']'),
-                                            m('a.w-button.btn.btn-large.btn-fb[href="http://www.facebook.com/sharer/sharer.php?u=https://www.catarse.me/flex?ref=facebook&title=' + encodeURIComponent('Meet the new JVN Flex!') + '"][target="_blank"]', 'To share')
+                                            m('a.w-button.btn.btn-large.btn-fb[href="http://www.facebook.com/sharer/sharer.php?u=https://www.catarse.me/flex?ref=facebook&title=' + encodeURIComponent('Meet the new Citizen Supported Flex!') + '"][target="_blank"]', 'To share')
                                         ])
                                     ]),
                                     m('.w-col.w-col-6.w-col-small-6.w-col-tiny-6', [

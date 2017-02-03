@@ -68,7 +68,7 @@ const publish = {
                         ' ',
                       m('span.fontweight-semibold', 'FLEX Rules')
                     ]),
-                    m('div', 'You have chosen the flexible campaign. In this way, you will receive all the funds collected from the supporters at the end of the campaign term (discounting the JVN fee) and must comply with the execution of the project and with the delivery of the rewards offered regardless of how much to collect.')
+                    m('div', 'You have chosen the flexible campaign. In this way, you will receive all the funds collected from the supporters at the end of the campaign term (discounting the Citizen Supported fee) and must comply with the execution of the project and with the delivery of the rewards offered regardless of how much to collect.')
                   ]),
                   m('.w-col.w-col-11', [
                     m('div', [
@@ -118,7 +118,7 @@ const publish = {
                     m('div', [
                         m('span.fontsize-smallest.fontcolor-secondary', '7/9'),
                         ' ',
-                      m('span.fontweight-semibold', 'Responsibility of JVN')
+                      m('span.fontweight-semibold', 'Responsibility of Citizen Supported')
                     ]),
                   [m('div', [m('span.fontweight-semibold'),m('span.fontweight-semibold', 'Catarse is responsible for:'),' By the technological development of the platform, attendance of doubts and problems (both of supporters and directors), by hosting the project in the platform and by guaranteeing the security of the financial transactions.\ ',m('br'),m('br'),m('span.fontweight-semibold', 'Catarse is not responsible for:'),' Financing, dissemination and execution, nor for the delivery of rewards of the projects registered.'])]
                   ]),
@@ -136,7 +136,7 @@ const publish = {
                       ' ',
                       m('span', {style: {'font-weight': ' 600'}}, 'Withdrawals from projects in the air')
                     ]),
-                    m('div', [m('span.fontweight-semibold'),'JVN reserves the right, in its sole discretion and once notified, to cancel projects and terminate the accounts of PROJECT CREATORS that violate our ',m('a.alt-link[href=\'http://suporte.catarse.me/hc/pt-br/articles/202387638-Diretrizes-para-cria%C3%A7%C3%A3o-de-projetos\'][target=\'_blank\']', 'Game rules'),' e ',m('a.alt-link[href=\'http://www.catarse.me/terms-of-use\'][target=\'_blank\']', 'Terms of use'),'.'])
+                    m('div', [m('span.fontweight-semibold'),'Citizen Supported reserves the right, in its sole discretion and once notified, to cancel projects and terminate the accounts of PROJECT CREATORS that violate our ',m('a.alt-link[href=\'http://suporte.catarse.me/hc/pt-br/articles/202387638-Diretrizes-para-cria%C3%A7%C3%A3o-de-projetos\'][target=\'_blank\']', 'Game rules'),' e ',m('a.alt-link[href=\'http://www.catarse.me/terms-of-use\'][target=\'_blank\']', 'Terms of use'),'.'])
                   ])
 
           ];
@@ -191,7 +191,7 @@ const publish = {
                         ' ',
                         m('span', {style: {'font-weight': ' 600'}}, 'Transfer and refund rules')
                       ]),
-                        m('div', ['When the deadline for your project comes to an end, you should verify your bank details. After this confirmation, JVN will deposit the amount collected, with the discount of the rate, into your checking account within 10 business days. If the project does not reach 100% of the target by the deadline, the JVN will reimburse the supporters. ',m('a.alt-link[href=\'http://suporte.catarse.me/hc/pt-br/articles/202365507\'][target=\'_blank\']', 'Learn more about the refund process'),'.'])
+                        m('div', ['When the deadline for your project comes to an end, you should verify your bank details. After this confirmation, Citizen Supported will deposit the amount collected, with the discount of the rate, into your checking account within 10 business days. If the project does not reach 100% of the target by the deadline, the Citizen Supported will reimburse the supporters. ',m('a.alt-link[href=\'http://suporte.catarse.me/hc/pt-br/articles/202365507\'][target=\'_blank\']', 'Learn more about the refund process'),'.'])
                     ]),
 
                     m('.w-col.w-col-11', [
@@ -206,9 +206,9 @@ const publish = {
                       m('div', [
                         m('span.fontsize-smallest.fontcolor-secondary', '7/9'),
                         ' ',
-                        m('span', {style: {'font-weight': ' 600'}}, 'Responsibility of JVN')
+                        m('span', {style: {'font-weight': ' 600'}}, 'Responsibility of Citizen Supported')
                       ]),
-                    [m('div', [m('span.fontweight-semibold'),m('span.fontweight-semibold', 'JVN is responsible:'),' By the technological development of the platform, attendance of doubts and problems (both of supporters and directors), by hosting the project in the platform and by guaranteeing the security of the financial transactions.\ ',m('br'),m('br'),m('span.fontweight-semibold', 'JVN is not responsible for:'),' Financing, dissemination and execution, nor for the delivery of rewards of the projects registered.'])]]),
+                    [m('div', [m('span.fontweight-semibold'),m('span.fontweight-semibold', 'Citizen Supported is responsible:'),' By the technological development of the platform, attendance of doubts and problems (both of supporters and directors), by hosting the project in the platform and by guaranteeing the security of the financial transactions.\ ',m('br'),m('br'),m('span.fontweight-semibold', 'Citizen Supported is not responsible for:'),' Financing, dissemination and execution, nor for the delivery of rewards of the projects registered.'])]]),
 
                     m('.w-col.w-col-11', [
                       m('div', [
@@ -225,7 +225,7 @@ const publish = {
                         ' ',
                         m('span', {style: {'font-weight': ' 600'}}, 'Withdrawals from projects in the air')
                       ]),
-                      m('div', [m('span.fontweight-semibold'),'JVN reserves the right, in its sole discretion and once notified, to cancel projects and terminate the accounts of PROJECT CREATORS that violate our',m('a.alt-link[href=\'http://suporte.catarse.me/hc/pt-br/articles/202387638-Diretrizes-para-cria%C3%A7%C3%A3o-de-projetos\'][target=\'_blank\']', 'Game rules'),' e ',m('a.alt-link[href=\'http://www.catarse.me/terms-of-use\'][target=\'_blank\']', 'Terms of use'),'.'])
+                      m('div', [m('span.fontweight-semibold'),'Citizen Supported reserves the right, in its sole discretion and once notified, to cancel projects and terminate the accounts of PROJECT CREATORS that violate our',m('a.alt-link[href=\'http://suporte.catarse.me/hc/pt-br/articles/202387638-Diretrizes-para-cria%C3%A7%C3%A3o-de-projetos\'][target=\'_blank\']', 'Game rules'),' e ',m('a.alt-link[href=\'http://www.catarse.me/terms-of-use\'][target=\'_blank\']', 'Terms of use'),'.'])
                     ])
 
               ];
@@ -289,7 +289,7 @@ const publish = {
                 m('.w-row', [
                   m('.w-col.w-col-2'),
                   m('.w-col.w-col-8', [
-                    m('.fontsize-small', ['Before posting, click on the circles below and confirm that you are aware of how JVN works. Any doubt, ',m('a.alt-link[href="http://suporte.catarse.me/hc/pt-br/requests/new"][target="_blank"]', 'contact'),'!'])
+                    m('.fontsize-small', ['Before posting, click on the circles below and confirm that you are aware of how Citizen Supported works. Any doubt, ',m('a.alt-link[href="http://suporte.catarse.me/hc/pt-br/requests/new"][target="_blank"]', 'contact'),'!'])
                   ]),
                   m('.w-col.w-col-2')
                 ])

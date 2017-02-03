@@ -36,7 +36,7 @@ const liveStatistics = {
                     ]),
                     m('.fontcolor-negative.u-marginbottom-60', [
                         m('.fontsize-megajumbo.fontweight-semibold', stat.total_contributors),
-                        m('.fontsize-large', 'People have already supported at least 1 campaign in JVN')
+                        m('.fontsize-large', 'People have already supported at least 1 campaign in Citizen Supported')
                     ])
                 ];
             })), (!_.isEmpty(data) ? m('.w-container', [

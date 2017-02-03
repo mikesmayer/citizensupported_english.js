@@ -210,7 +210,7 @@ const userSettings = {
                                     'Email'
                                 ),
                                 m('.fontsize-small.u-marginbottom-30',
-                                    'Keep this email up to date as it is the communication channel between you, the JVN team and the team of projects you have supported. '
+                                    'Keep this email up to date as it is the communication channel between you, the Citizen Supported team and the team of projects you have supported. '
                                 ),
                                 m('.fontsize-base.u-marginbottom-40', [
                                     m('span.fontweight-semibold.card.u-radius',
@@ -316,7 +316,7 @@ const userSettings = {
                                             onchange: m.withAttr('value', fields.street)
                                         }),
                                         m('.fontsize-smaller.text-error.u-marginbottom-20.fa.fa-exclamation-triangle.w-hidden[data-error-for=\'user_address_street\']',
-                                            ' translation missing: pt.simple_form.validation_texts.user.address_street'
+                                            ' translation missing: en.simple_form.validation_texts.user.address_street'
                                         )
                                     ]),
                                     m('.w-col.w-col-6',
@@ -330,7 +330,7 @@ const userSettings = {
                                                     onchange: m.withAttr('value', fields.number)
                                                 }),
                                                 m('.fontsize-smaller.text-error.u-marginbottom-20.fa.fa-exclamation-triangle.w-hidden[data-error-for=\'user_address_number\']',
-                                                    ' translation missing: pt.simple_form.validation_texts.user.address_number'
+                                                    ' translation missing: en.simple_form.validation_texts.user.address_number'
                                                 )
                                             ]),
                                             m('.input.string.optional.user_address_complement.w-col.w-col-6.w-col-small-6.w-col-tiny-6', [
@@ -364,7 +364,7 @@ const userSettings = {
                                             onchange: m.withAttr('value', fields.city)
                                         }),
                                         m('.fontsize-smaller.text-error.u-marginbottom-20.fa.fa-exclamation-triangle.w-hidden[data-error-for=\'user_address_city\']',
-                                            ' translation missing: pt.simple_form.validation_texts.user.address_city'
+                                            ' translation missing: en.simple_form.validation_texts.user.address_city'
                                         )
                                     ])
                                 ]),
@@ -394,7 +394,7 @@ const userSettings = {
                                             )
                                         ]),
                                         m('.fontsize-smaller.text-error.u-marginbottom-20.fa.fa-exclamation-triangle.w-hidden[data-error-for=\'user_address_state\']',
-                                            ' translation missing: pt.simple_form.validation_texts.user.address_state'
+                                            ' translation missing: en.simple_form.validation_texts.user.address_state'
                                         )
                                     ]),
                                     m('.w-col.w-col-6',
@@ -408,7 +408,7 @@ const userSettings = {
                                                     onchange: m.withAttr('value', fields.zipcode)
                                                 }),
                                                 m('.fontsize-smaller.text-error.u-marginbottom-20.fa.fa-exclamation-triangle.w-hidden[data-error-for=\'user_address_zip_code\']',
-                                                    ' translation missing: pt.simple_form.validation_texts.user.address_zip_code'
+                                                    ' translation missing: en.simple_form.validation_texts.user.address_zip_code'
                                                 )
                                             ]),
                                             m('.input.tel.optional.user_phone_number.w-col.w-col-6.w-col-small-6.w-col-tiny-6', [
@@ -465,7 +465,7 @@ const userSettings = {
                                 m(`a.alt-link.fontsize-smaller[href=\'/en/users/${user.id}\'][rel=\'nofollow\']`,{
                                         onclick: ctrl.deleteAccount,
                                     },
-                                    'Disable my JVN account'
+                                    'Disable my Citizen Supported account'
                                 )
                             ])
                         )

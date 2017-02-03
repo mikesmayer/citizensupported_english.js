@@ -7,7 +7,7 @@ import h from '../h';
 
 const successfulProjectTaxModal = {
     view(ctrl, args) {
-        let pt = args.projectTransfer;
+        let en = args.projectTransfer;
 
         return m('div',[
             m('.modal-dialog-header', [
@@ -23,16 +23,16 @@ const successfulProjectTaxModal = {
                 m('div', [
                     m('.w-row.fontsize-small.u-marginbottom-10', [
                         m('.w-col.w-col-4', [
-                            m('.text-success', `+ $ ${h.formatNumber(pt.pledged, 2)}`)
+                            m('.text-success', `+ $ ${h.formatNumber(en.pledged, 2)}`)
                         ]),
                         m('.w-col.w-col-8', [
-                            m('div', `Total collection (${pt.total_contributions} Supports)`)
+                            m('div', `Total collection (${en.total_contributions} Supports)`)
                         ])
                     ]),
-                    (pt.irrf_tax > 0 ?
+                    (en.irrf_tax > 0 ?
                      m('.w-row.fontsize-small.u-marginbottom-10', [
                          m('.w-col.w-col-4', [
-                             m('.text-success', `+ $ ${h.formatNumber(pt.irrf_tax, 2)}`)
+                             m('.text-success', `+ $ ${h.formatNumber(en.irrf_tax, 2)}`)
                          ]),
                          m('.w-col.w-col-8', [
                              m('div', 'Retention IRRF (Income Tax withholding)')
@@ -40,16 +40,16 @@ const successfulProjectTaxModal = {
                      ]) : ''),
                     m('.w-row.fontsize-small.u-marginbottom-10', [
                         m('.w-col.w-col-4', [
-                            m('.text-error', `- $ ${h.formatNumber(pt.catarse_fee, 2)}`)
+                            m('.text-error', `- $ ${h.formatNumber(en.catarse_fee, 2)}`)
                         ]),
                         m('.w-col.w-col-8', [
-                            m('div', `JVN fee and means of payment (${h.formatNumber((pt.service_fee * 100), 2)}%) `)
+                            m('div', `Citizen Supported fee and means of payment (${h.formatNumber((en.service_fee * 100), 2)}%) `)
                         ])
                     ]),
                     m('.divider.u-marginbottom-10'),
                     m('.w-row.fontsize-base.fontweight-semibold', [
                         m('.w-col.w-col-4', [
-                            m('div', `$ ${h.formatNumber(pt.total_amount, 2)}`)
+                            m('div', `$ ${h.formatNumber(en.total_amount, 2)}`)
                         ]),
                         m('.w-col.w-col-8', [
                             m('div', 'Total to be transferred')

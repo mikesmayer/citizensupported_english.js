@@ -111,7 +111,7 @@ const projectContributions = {
                                   `${Math.floor(stats.new_percent)}%`
                                  ),
                                 m('.fontsize-smallest',
-                                  'Supporters who had never supported a project in JVN'
+                                  'Supporters who had never supported a project in Citizen Supported'
                                  )
                             ]),
                             m('.w-col.w-col-6.w-col-small-6', [
@@ -123,7 +123,7 @@ const projectContributions = {
                                   `${Math.ceil(stats.returning_percent)}%`
                                  ),
                                 m('.fontsize-smallest',
-                                  'Supporters who had already supported a project in JVN'
+                                  'Supporters who had already supported a project in Citizen Supported'
                                  )
                             ])
                         ])
