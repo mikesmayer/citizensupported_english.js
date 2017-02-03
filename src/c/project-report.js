@@ -78,7 +78,7 @@ const projectReport = {
                         [
                           'This project disrespects',
                           m.trust('&nbsp;'),
-                          m('a.alt-link[href=\'http://suporte.catarse.me/hc/pt-br/articles/202387638\'][target=\'_blank\']',
+                          m('a.alt-link[href=\'http://suporte.citizensupported.org/hc/pt-br/articles/202387638\'][target=\'_blank\']',
                             'our rules? '
                           )
                         ]

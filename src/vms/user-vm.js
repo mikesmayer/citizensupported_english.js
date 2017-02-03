@@ -110,7 +110,7 @@ const getCurrentUser = () => {
 };
 
 const displayImage = (user) => {
-  return user.profile_img_thumbnail || "https://catarse.me/assets/catarse_bootstrap/user.jpg";
+  return user.profile_img_thumbnail || "https://citizensupported.org/assets/catarse_bootstrap/user.jpg";
 };
 
 const displayCover = (user) => user.profile_cover_image || displayImage(user);

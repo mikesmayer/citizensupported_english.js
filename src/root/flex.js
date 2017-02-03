@@ -13,11 +13,11 @@ const Flex = {
             l = m.prop(),
             sample3 = _.partial(_.sample, _, 3),
             builder = {
-                customAction: 'http://fazum.catarse.me/obrigado-landing-catarse-flex'
+                customAction: 'http://fazum.citizensupported.org/obrigado-landing-catarse-flex'
             },
             addDisqus = (el, isInitialized) => {
                 if (!isInitialized) {
-                    h.discuss('https://catarse.me/flex', 'flex_page');
+                    h.discuss('https://citizensupported.org/flex', 'flex_page');
                 }
             },
             flexVM = postgrest.filtersVM({
@@ -128,7 +128,7 @@ const Flex = {
                                 }),
                                 m.component(landingQA, {
                                     question: 'What is the difference between the flexible and the "all or nothing"?',
-                                    answer: 'Currently Catarse uses only the "all or nothing" model, where you only get the money if you beat the collection goal within the term of the campaign. The flexible model is different because it allows the director to keep what he has collected, regardless of whether or not he reaches the project goal within the term of the campaign. There will be no time limit for campaigns. Our flexible system will be something new compared to the models that currently exist in the market.'
+                                    answer: 'Currently Citizen Supported uses only the "all or nothing" model, where you only get the money if you beat the collection goal within the term of the campaign. The flexible model is different because it allows the director to keep what he has collected, regardless of whether or not he reaches the project goal within the term of the campaign. There will be no time limit for campaigns. Our flexible system will be something new compared to the models that currently exist in the market.'
                                 }),
                             ]), m('.w-col.w-col-6', [
                                 m.component(landingQA, {
@@ -136,11 +136,11 @@ const Flex = {
                                     answer: 'Yes. Register your email and learn how to register your project on flex!'
                                 }),
                                 m.component(landingQA, {
-                                    question: 'Why do you want to do the Catarse flex?',
-                                    answer: 'We believe that the Brazilian crowdfunding environment still has room for many actions, tests and experiments to really understand what people need. We dream of making collective financing a habit in Brazil. Catarse flex is another step in this direction.'
+                                    question: 'Why do you want to do the Citizen Supported Flex?',
+                                    answer: 'We believe that the crowdfunding environment still has room for many actions, tests and experiments to really understand what people need. We dream of making collective financing possible for progressive politics. Citizen Supported Flex is another step in this direction.'
                                 }),
                                 m.component(landingQA, {
-                                    question: 'When will you launch Catarse flex?',
+                                    question: 'When will you launch Citizen Supported Flex?',
                                     answer: 'We still do not know when we will open flex for the general public, but you can register your email on this page and receive special material on how to submit your project.'
                                 })
                             ])
@@ -149,7 +149,7 @@ const Flex = {
                 ]),
                 m('.w-section.section-large.u-text-center.bg-purple', [
                     m('.w-container.fontcolor-negative', [
-                        m('.fontsize-largest', 'Inscreva seu projeto!'), m('.fontsize-base.u-marginbottom-60', 'Register your email and learn how to register your project on flex!'), m('.w-row', [
+                        m('.fontsize-largest', 'Enter your project!'), m('.fontsize-base.u-marginbottom-60', 'Register your email and learn how to register your project on flex!'), m('.w-row', [
                             m('.w-col.w-col-2'),
                             m.component(landingSignup, {
                                 builder: ctrl.builder
@@ -175,7 +175,7 @@ const Flex = {
                 ]),
                 m('.w-section.section.bg-blue-one.fontcolor-negative', [
                     m('.w-container', [
-                        m('.fontsize-large.u-text-center.u-marginbottom-20', 'Recommend the Catarse flex for friends! '),
+                        m('.fontsize-large.u-text-center.u-marginbottom-20', 'Recommend the Citizen Supported flex for friends! '),
                         m('.w-row', [
                             m('.w-col.w-col-2'),
                             m('.w-col.w-col-8', [
@@ -183,13 +183,13 @@ const Flex = {
                                     m('.w-col.w-col-6.w-col-small-6.w-col-tiny-6.w-sub-col-middle', [
                                         m('div', [
                                             m('img.icon-share-mobile[src=\'https://daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/53a3f66e05eb6144171d8edb_facebook-xxl.png\']'),
-                                            m('a.w-button.btn.btn-large.btn-fb[href="http://www.facebook.com/sharer/sharer.php?u=https://www.catarse.me/flex?ref=facebook&title=' + encodeURIComponent('Meet the new Citizen Supported Flex!') + '"][target="_blank"]', 'To share')
+                                            m('a.w-button.btn.btn-large.btn-fb[href="http://www.facebook.com/sharer/sharer.php?u=https://www.citizensupported.org/flex?ref=facebook&title=' + encodeURIComponent('Meet the new Citizen Supported Flex!') + '"][target="_blank"]', 'To share')
                                         ])
                                     ]),
                                     m('.w-col.w-col-6.w-col-small-6.w-col-tiny-6', [
                                         m('div', [
                                             m('img.icon-share-mobile[src=\'https://daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/53a3f65105eb6144171d8eda_twitter-256.png\']'),
-                                            m('a.w-button.btn.btn-large.btn-tweet[href="https://twitter.com/intent/tweet?text=' + encodeURIComponent('Let`s build a new mode of crowdfunding for Catarse! Join us, sign up for your email!') + 'https://www.catarse.me/flex?ref=twitter"][target="_blank"]', 'To tweet')
+                                            m('a.w-button.btn.btn-large.btn-tweet[href="https://twitter.com/intent/tweet?text=' + encodeURIComponent('Let`s build a new mode of crowdfunding for Citizen Supported! Join us, sign up for your email!') + 'https://www.citizensupported.org/flex?ref=twitter"][target="_blank"]', 'To tweet')
                                         ])
                                     ])
                                 ])

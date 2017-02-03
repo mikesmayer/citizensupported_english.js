@@ -103,7 +103,7 @@ const publish = {
                         ' ',
                       m('span.fontweight-semibold', 'Deadline for transfer')
                     ]),
-                      m('div', 'When the deadline for your project comes to an end, you should verify your bank details. After this confirmation, Catarse will deposit into your checking account within 10 business days. The amount deposited will already be considering the 13% discount of the fee.')
+                      m('div', 'When the deadline for your project comes to an end, you should verify your bank details. After this confirmation, Citizen Supported will deposit into your checking account within 10 business days. The amount deposited will already be considering the 13% discount of the fee.')
                   ]),
                   m('.w-col.w-col-11', [
                     m('div', [
@@ -120,7 +120,7 @@ const publish = {
                         ' ',
                       m('span.fontweight-semibold', 'Responsibility of Citizen Supported')
                     ]),
-                  [m('div', [m('span.fontweight-semibold'),m('span.fontweight-semibold', 'Catarse is responsible for:'),' By the technological development of the platform, attendance of doubts and problems (both of supporters and directors), by hosting the project in the platform and by guaranteeing the security of the financial transactions.\ ',m('en'),m('en'),m('span.fontweight-semibold', 'Catarse is not responsible for:'),' Financing, dissemination and execution, nor for the delivery of rewards of the projects registered.'])]
+                  [m('div', [m('span.fontweight-semibold'),m('span.fontweight-semibold', 'Citizen Supported is responsible for:'),' By the technological development of the platform, attendance of doubts and problems (both of supporters and directors), by hosting the project in the platform and by guaranteeing the security of the financial transactions.\ ',m('en'),m('en'),m('span.fontweight-semibold', 'Citizen Supported is not responsible for:'),' Financing, dissemination and execution, nor for the delivery of rewards of the projects registered.'])]
                   ]),
                   m('.w-col.w-col-11', [
                     m('div', [
@@ -136,7 +136,7 @@ const publish = {
                       ' ',
                       m('span', {style: {'font-weight': ' 600'}}, 'Withdrawals from projects in the air')
                     ]),
-                    m('div', [m('span.fontweight-semibold'),'Citizen Supported reserves the right, in its sole discretion and once notified, to cancel projects and terminate the accounts of PROJECT CREATORS that violate our ',m('a.alt-link[href=\'http://suporte.catarse.me/hc/pt-br/articles/202387638-Diretrizes-para-cria%C3%A7%C3%A3o-de-projetos\'][target=\'_blank\']', 'Game rules'),' e ',m('a.alt-link[href=\'http://www.catarse.me/terms-of-use\'][target=\'_blank\']', 'Terms of use'),'.'])
+                    m('div', [m('span.fontweight-semibold'),'Citizen Supported reserves the right, in its sole discretion and once notified, to cancel projects and terminate the accounts of PROJECT CREATORS that violate our ',m('a.alt-link[href=\'http://suporte.citizensupported.org/hc/pt-br/articles/202387638-Diretrizes-para-cria%C3%A7%C3%A3o-de-projetos\'][target=\'_blank\']', 'Game rules'),' e ',m('a.alt-link[href=\'http://www.citizensupported.org/terms-of-use\'][target=\'_blank\']', 'Terms of use'),'.'])
                   ])
 
           ];
@@ -182,7 +182,7 @@ const publish = {
                         ' ',
                         m('span', {style: {'font-weight': ' 600'}}, 'Campaign deadline')
                       ]),
-                      m('div', `Your project will be in collection at the Catarse until the ${h.momentify(ctrl.expiresAt())}At 11:50 p.m. This deadline can not be changed after the project has been published.`)
+                      m('div', `Your project will be in collection at the Citizen Supported until the ${h.momentify(ctrl.expiresAt())}At 11:50 p.m. This deadline can not be changed after the project has been published.`)
                     ]),
 
                     m('.w-col.w-col-11', [
@@ -191,7 +191,7 @@ const publish = {
                         ' ',
                         m('span', {style: {'font-weight': ' 600'}}, 'Transfer and refund rules')
                       ]),
-                        m('div', ['When the deadline for your project comes to an end, you should verify your bank details. After this confirmation, Citizen Supported will deposit the amount collected, with the discount of the rate, into your checking account within 10 business days. If the project does not reach 100% of the target by the deadline, the Citizen Supported will reimburse the supporters. ',m('a.alt-link[href=\'http://suporte.catarse.me/hc/pt-br/articles/202365507\'][target=\'_blank\']', 'Learn more about the refund process'),'.'])
+                        m('div', ['When the deadline for your project comes to an end, you should verify your bank details. After this confirmation, Citizen Supported will deposit the amount collected, with the discount of the rate, into your checking account within 10 business days. If the project does not reach 100% of the target by the deadline, the Citizen Supported will reimburse the supporters. ',m('a.alt-link[href=\'http://suporte.citizensupported.org/hc/pt-br/articles/202365507\'][target=\'_blank\']', 'Learn more about the refund process'),'.'])
                     ]),
 
                     m('.w-col.w-col-11', [
@@ -225,7 +225,7 @@ const publish = {
                         ' ',
                         m('span', {style: {'font-weight': ' 600'}}, 'Withdrawals from projects in the air')
                       ]),
-                      m('div', [m('span.fontweight-semibold'),'Citizen Supported reserves the right, in its sole discretion and once notified, to cancel projects and terminate the accounts of PROJECT CREATORS that violate our',m('a.alt-link[href=\'http://suporte.catarse.me/hc/pt-br/articles/202387638-Diretrizes-para-cria%C3%A7%C3%A3o-de-projetos\'][target=\'_blank\']', 'Game rules'),' e ',m('a.alt-link[href=\'http://www.catarse.me/terms-of-use\'][target=\'_blank\']', 'Terms of use'),'.'])
+                      m('div', [m('span.fontweight-semibold'),'Citizen Supported reserves the right, in its sole discretion and once notified, to cancel projects and terminate the accounts of PROJECT CREATORS that violate our',m('a.alt-link[href=\'http://suporte.citizensupported.org/hc/pt-br/articles/202387638-Diretrizes-para-cria%C3%A7%C3%A3o-de-projetos\'][target=\'_blank\']', 'Game rules'),' e ',m('a.alt-link[href=\'http://www.citizensupported.org/terms-of-use\'][target=\'_blank\']', 'Terms of use'),'.'])
                     ])
 
               ];
@@ -263,7 +263,7 @@ const publish = {
                 m('.w-col.w-col-6', [
                   m('.u-marginbottom-30.fontsize-base', [
                     m('div', [m('span.fontweight-semibold', 'Title: '), project.name]),
-                    m('div', [m('span.fontweight-semibold', 'Link: '),`www.catarse.me/${project.permalink}`]),
+                    m('div', [m('span.fontweight-semibold', 'Link: '),`www.citizensupported.org/${project.permalink}`]),
                     m('div', [m('span.fontweight-semibold', 'Method of financing: '), I18n.t(project.mode, I18nScope())]),
                     m('div', [m('span.fontweight-semibold', 'Goal of collection: '),`$ ${h.formatNumber(project.goal, 2, 3)}`]),
                     (project.online_days !== null) ? m('div', [m('span.fontweight-semibold', `Deadline: ${project.online_days} ${(project.online_days > 1) ? 'days' : 'days' }`)]) : '',
@@ -289,7 +289,7 @@ const publish = {
                 m('.w-row', [
                   m('.w-col.w-col-2'),
                   m('.w-col.w-col-8', [
-                    m('.fontsize-small', ['Before posting, click on the circles below and confirm that you are aware of how Citizen Supported works. Any doubt, ',m('a.alt-link[href="http://suporte.catarse.me/hc/pt-br/requests/new"][target="_blank"]', 'contact'),'!'])
+                    m('.fontsize-small', ['Before posting, click on the circles below and confirm that you are aware of how Citizen Supported works. Any doubt, ',m('a.alt-link[href="http://suporte.citizensupported.org/hc/pt-br/requests/new"][target="_blank"]', 'contact'),'!'])
                   ]),
                   m('.w-col.w-col-2')
                 ])

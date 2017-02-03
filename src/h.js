@@ -793,7 +793,7 @@ const
             permalink = project.permalink;
         }
 
-        return `https://www.catarse.me/${permalink}`;
+        return `https://www.citizensupported.org/${permalink}`;
     },
     isHome = (): boolean => {
         const path = window.location.pathname;

@@ -1,6 +1,6 @@
 const testToken = "test_token";
 const nContributions = 20;
-const apiPrefix = "https://api.catarse.me";
+const apiPrefix = "https://api.citizensupported.org";
 postgrest.init(apiPrefix, {method: "GET", url: "/api_token"});
 
 const mockEndpoint = function(endpoint, result){
