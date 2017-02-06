@@ -44,7 +44,7 @@ const projectPosts = {
                     m('.w-row.u-marginbottom-20', [
                         m('.w-col.w-col-4'),
                         m('.w-col.w-col-4', [
-                            m(`a.btn.btn-edit.btn-small[href='/en/projects/${project.project_id}/edit#posts']`, 'Writing novelty')
+                            m(`a.btn.btn-edit.btn-small[href='/projects/${project.project_id}/edit#posts']`, 'Writing novelty')
                         ]),
                         m('.w-col.w-col-4'),
                     ])

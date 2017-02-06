@@ -45,7 +45,7 @@ const userNotifications = {
         return m('[id=\'notifications-tab\']', ctrl.error() ? m.component(inlineError, {
                 message: 'Error loading page.'
             }) :
-            m(`form.simple_form.edit_user[accept-charset='UTF-8'][action='/en/users/${user.id}'][method='post'][novalidate='novalidate']`, [
+            m(`form.simple_form.edit_user[accept-charset='UTF-8'][action='/users/${user.id}'][method='post'][novalidate='novalidate']`, [
                 m('input[name=\'utf8\'][type=\'hidden\'][value=\'✓\']'),
                 m('input[name=\'_method\'][type=\'hidden\'][value=\'patch\']'),
                 m(`input[name='authenticity_token'][type='hidden'][value='${h.authenticityToken()}']`),

@@ -462,7 +462,7 @@ const userSettings = {
                                 m('.fontsize-smallest',
                                     'All your support will be converted into anonymous backups, your data will no longer be visible, you will automatically exit the system and your account will be permanently disabled.'
                                 ),
-                                m(`a.alt-link.fontsize-smaller[href=\'/en/users/${user.id}\'][rel=\'nofollow\']`,{
+                                m(`a.alt-link.fontsize-smaller[href=\'/users/${user.id}\'][rel=\'nofollow\']`,{
                                         onclick: ctrl.deleteAccount,
                                     },
                                     'Disable my Citizen Supported account'
@@ -482,7 +482,7 @@ const userSettings = {
                     )
                 ])
             ]),
-            m('form.w-hidden', {action: `/en/users/${user.id}`, method: 'post', config: ctrl.setDeleteForm}, [
+            m('form.w-hidden', {action: `/users/${user.id}`, method: 'post', config: ctrl.setDeleteForm}, [
                 m(`input[name='authenticity_token'][type='hidden'][value='${h.authenticityToken()}']`),
                 m('input[name=\'_method\'][type=\'hidden\'][value=\'delete\']')
             ])

@@ -26,7 +26,7 @@ const projectShareBox = {
             }, '< embed >'), (ctrl.displayEmbed() ? m('.embed-expanded.u-margintop-30', [
                 m('.fontsize-small.fontweight-semibold.u-marginbottom-20', 'Insert a widget on your site'),
                 m('.w-form', [
-                    m('input.w-input[type="text"][value="<iframe frameborder="0" height="340px" src="https://www.citizensupported.org/en/projects/' + args.project().project_id + '/embed" width="300px" scrolling="no"></iframe>"]')
+                    m('input.w-input[type="text"][value="<iframe frameborder="0" height="340px" src="https://www.citizensupported.org/projects/' + args.project().project_id + '/embed" width="300px" scrolling="no"></iframe>"]')
                 ]),
                 m('.card-embed', [
                     m('iframe[frameborder="0"][height="350px"][src="/projects/' + args.project().project_id + '/embed"][width="300px"][scrolling="no"]')

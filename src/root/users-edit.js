@@ -97,7 +97,7 @@ const usersEdit = {
                             m(`a.dashboard-nav-link${(ctrl.hash() === '#billing' ? '.selected' : '')}[data-target='#dashboard_billing'][href='#billing'][id='dashboard_billing_link']`,
                                 'Bank and cards'
                             ),
-                            m(`a.dashboard-nav-link.u-right-big-only[href='/en/users/${user.id}']`, {
+                            m(`a.dashboard-nav-link.u-right-big-only[href='/users/${user.id}']`, {
                                     config: m.route,
                                     onclick: () => {
                                         m.route("/users/" + user.id, {

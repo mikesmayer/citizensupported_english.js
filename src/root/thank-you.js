@@ -65,8 +65,8 @@ const thankYou = {
                                            I18nScope({
                                                total: args.contribution.project.total_contributions,
                                                email: args.contribution.contribution_email,
-                                               link2: `/en/users/${h.getUser().user_id}/edit#contributions`,
-                                               link_email: `/en/users/${h.getUser().user_id}/edit#settings`
+                                               link2: `/users/${h.getUser().user_id}/edit#contributions`,
+                                               link_email: `/users/${h.getUser().user_id}/edit#settings`
                                            })
                                           )
                                 )
@@ -80,7 +80,7 @@ const thankYou = {
                                 m.trust(I18n.t('thank_you_slip.thank_you_text_html',
                                                I18nScope({
                                                    email: args.contribution.contribution_email,
-                                                   link_email: `/en/users/${h.getUser().user_id}/edit#settings`
+                                                   link_email: `/users/${h.getUser().user_id}/edit#settings`
                                                }))))
                           ]
                          ),

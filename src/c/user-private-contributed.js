@@ -74,7 +74,7 @@ const userPrivateContributed = {
                         m('.w-row', [
                             m('.w-col.w-col-3'),
                             m('.w-col.w-col-6',
-                                m('a.btn.btn-large[href=\'/en/explore\']', {
+                                m('a.btn.btn-large[href=\'/explore\']', {
                                         config: m.route,
                                         onclick: () => {
                                             m.route('/explore');
