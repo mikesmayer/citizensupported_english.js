@@ -16,7 +16,7 @@ const footer = {
                                                 m('.footer-full-signature-text.fontsize-small',
                                                     'Welcome'
                                                 ),
-                                                m('a.link-footer[href=\'http://www.citizensupported.org/coming-soon-how?ref=citizensupported_footer\']',
+                                                m('a.link-footer[href=\'http://www.citizensupported.org/start?ref=citizensupported_footer\']',
                                                     [
                                                         'How it works',
                                                         m.trust('&nbsp;'),
