@@ -25,9 +25,6 @@ const footer = {
                                                         )
                                                     ]
                                                 ),
-                                                m('a.link-footer[href=\'https://www.citizensupported.org/flex?ref=citizensupported_footer\']',
-                                                    ' Citizen Supported flex'
-                                                ),
                                                 m('a.link-footer[href=\'https://www.citizensupported.org/team?ref=citizensupported_footer\']',
                                                     [
                                                         ' Our team ',
