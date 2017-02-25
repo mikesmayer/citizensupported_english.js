@@ -24,10 +24,9 @@ const teamTotal = {
                         m('.w-col.w-col-2'),
                         m('.w-col.w-col-8', [
                             m('.fontsize-base.u-marginbottom-30',
-                                'Today we are' + teamTotal.member_count + ' People scattered over ' + teamTotal.total_cities + ' Cities in ' + teamTotal.countries.length +
-                                ' Countries (' + teamTotal.countries.toString() + ')! Citizen Supported is independent, open-source, and built with love. Our passion is to build an environment where more and more projects can come to life.'),
+                                'Today we are' + teamTotal.member_count + ' people scattered over ' + teamTotal.total_cities + ' cities and towns across the country! Our passion is to assist all of the amazing political activists that are leading the effort to pursue progressive change across the United States. Citizen Supported is independent, open-source and built with love.'),
                             m('.fontsize-larger.lineheight-tight.text-success',
-                                'Our team, together, has already $' + h.formatNumber(teamTotal.total_amount) + ' for ' + teamTotal.total_contributed_projects + ' Business!')
+                                'Our team, together, has already raised $' + h.formatNumber(teamTotal.total_amount) + ' for ' + teamTotal.total_contributed_projects + ' campaigns!')
                         ]),
                         m('.w-col.w-col-2')
                     ])
