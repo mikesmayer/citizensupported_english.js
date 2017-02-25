@@ -66,9 +66,6 @@ const footer = {
                                                 m('a.link-footer[href=\'https://citizensupported.zendesk.com/hc/en-us/community/topics?ref=citizensupported_footer/\']',
                                                     ' Support Center'
                                                 ),
-                                                m('a.link-footer[href=\'https://www.citizensupported.org/guides?ref=citizensupported_footer\']',
-                                                    ' Guide for Protesters'
-                                                ),
                                                 m('a.link-footer[href=\'/terms-of-use\']',
                                                     ' Terms of Use'
                                                 ),
