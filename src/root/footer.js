@@ -33,7 +33,13 @@ const footer = {
                                                     ]
                                                 ),
                                                 m('a.link-footer[href=\'https://www.citizensupported.org/jobs\']',
-                                                    ' Jobs'
+                                                   [
+                                                        ' Jobs',
+                                                       m.trust('&nbsp;'),
+                                                       m('span.badge.badge-success',
+                                                           'New‍'
+                                                       )
+                                                   ]
                                                 ),
                                                 m('a.link-footer[href=\'http://facebook.com/citizensupported\']',
                                                     ' Facebook'
