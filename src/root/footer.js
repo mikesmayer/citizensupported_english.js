@@ -60,15 +60,6 @@ const footer = {
                                                 m('a.link-footer[href=\'https://citizensupported.zendesk.com/hc/en-us/requests/new\'][target="_BLANK"]',
                                                     ' Contact'
                                                 ),
-                                                m('a.link-footer[href=\'http://www.citizensupported.org/coming-soon-fees?ref=citizensupported_footer\']',
-                                                    [
-                                                        'Our Fees',
-                                                        m.trust('&nbsp;'),
-                                                        m('span.badge.badge-success',
-                                                            'New‍'
-                                                        )
-                                                    ]
-                                                ),
                                                 m('a.link-footer[href=\'https://www.citizensupported.org/press?ref=citizensupported_footer\']',
                                                     ' Press'
                                                 ),
