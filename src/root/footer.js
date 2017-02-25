@@ -32,6 +32,9 @@ const footer = {
                                                         '3'
                                                     ]
                                                 ),
+                                                m('a.link-footer[href=\'https://www.citizensupported.org/jobs\']',
+                                                    ' Jobs'
+                                                ),
                                                 m('a.link-footer[href=\'http://facebook.com/citizensupported\']',
                                                     ' Facebook'
                                                 ),
@@ -46,9 +49,6 @@ const footer = {
                                                 ),
                                                 m('a.link-footer[href=\'http://blog.citizensupported.org\']',
                                                     ' Blog'
-                                                ),
-                                                m('a.link-footer[href=\'https://www.citizensupported.org/jobs\']',
-                                                    ' Jobs'
                                                 )
                                             ]
                                         ),
